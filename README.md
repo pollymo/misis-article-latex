@@ -29,8 +29,10 @@
 
 Компилятор: XeLaTeX или tectonic.
 
-make article # PDF: build/article.pdf make dist # архив для Overleaf
-
+```
+make article        # PDF: build/article.pdf
+make dist           # архив для Overleaf
+```
 
 В Overleaf: New Project → Upload Project → Settings → Compiler → XeLaTeX; главный файл `article.tex`.
 
